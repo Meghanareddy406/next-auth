@@ -18,7 +18,7 @@ Use `npm` to install the project dependencies:
 npm install
 ```
 
-## Configuration
+
 
 ### Create an API
 
@@ -32,7 +32,7 @@ The project needs to be configured with your Auth0 Domain, Client ID and Client 
 
 To do this, first copy `.env.local.example` into a new file in the same folder called `.env.local`, and replace the values with your own Auth0 application credentials (see more info about [loading environmental variables in Next.js](https://nextjs.org/docs/basic-features/environment-variables)):
 
-```sh
+
 # A long secret value used to encrypt the session cookie
 AUTH0_SECRET='LONG_RANDOM_VALUE'
 # The base url of your application
